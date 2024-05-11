@@ -1,14 +1,14 @@
-import React from "react"
-import styles from "./footer.module.css"
-import Image from "next/image"
-import Link from "next/link"
+import React from "react";
+import styles from "./footer.module.css";
+import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.info}>
         <div className={styles.logo}>
-          <Image src="/logo.png" width={50} height={50}/>
+          <Image src="/logo.png" width={50} height={50} />
           <h1 className={styles.logoText}>ShadeRoom</h1>
         </div>
         <p className={styles.desc}>Tempor cillum deserunt dolore amet incididunt nisi. Esse magna incididunt aliqua ad. Laboris esse cupidatat ea cillum id minim id dolore adipisicing voluptate aliquip cupidatat. Voluptate pariatur aute non cupidatat officia proident incididunt proident veniam reprehenderit excepteur magna consectetur. Velit ad anim amet consequat cupidatat pariatur officia.</p>
@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <div className={styles.links}>
         <div className={styles.list}>
-          <span className={styles.listTitle}>Links</span>
+          <span className={styles.listTitle}>Pages</span>
           <Link href="/">Homepage</Link>
           <Link href="/">Blog</Link>
           <Link href="/">About</Link>
@@ -37,16 +37,15 @@ const Footer = () => {
         </div>
 
         <div className={styles.list}>
-          <span className={styles.listTitle}>Links</span>
+          <span className={styles.listTitle}>Social Media</span>
           <Link href="/">Facebook</Link>
           <Link href="/">Instagram</Link>
           <Link href="/">Tiktok</Link>
           <Link href="/">Youtube</Link>
         </div>
-
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
