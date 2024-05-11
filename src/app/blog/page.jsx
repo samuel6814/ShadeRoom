@@ -1,7 +1,7 @@
-import CardList from '@/components/cardList/CardList'
+import CardList from '../../components/cardList/CardList'
 import React from 'react'
 import styles from "./blogPage.module.css"
-import Menu from '@/components/Menu/Menu'
+import Menu from '../../components/Menu/Menu'
 
 const BlogPage = () => {
   return (
