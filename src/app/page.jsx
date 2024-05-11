@@ -1,9 +1,9 @@
 import Link from "next/link";
 import styles from "./homepage.module.css";
-import CategoryList from "@/components/categoryList/CategoryList";
-import Featured from "@/components/featured/Featured";
-import CardList from "@/components/cardList/CardList";
-import Menu from "@/components/Menu/Menu";
+import CategoryList from "../components/categoryList/CategoryList";
+import Featured from "../components/featured/Featured";
+import CardList from "../components/cardList/CardList";
+import Menu from "../components/Menu/Menu";
 
 
 export default function Home() {
