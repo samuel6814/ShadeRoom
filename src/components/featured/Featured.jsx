@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 import styles from "./featured.module.css"
-import Image from 'next/image'
+import Image from "next/image"
 
 const Featured = () => {
   return (
@@ -12,7 +12,7 @@ const Featured = () => {
       </h1>
       <div className={styles.post}>
         <div className={styles.imgContainer}>
-          <Image src="/p1.jpeg" alt='' fill className={styles.image}/>
+          <Image src="/p1.jpeg" alt="" fill className={styles.image}/>
         </div>
         <div className={styles.textContainer}>
           <h1 className={styles.postTitle}>Magna voluptate cillum qui ad esse ullamco minim aute duis culpa.</h1>
