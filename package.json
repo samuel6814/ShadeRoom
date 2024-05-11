@@ -9,10 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.48.0",
-    "eslint-config-next": "13.4.19",
-    "next": "13.4.19",
+    "@auth/prisma-adapter": "^2.0.0",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@prisma/client": "^5.13.0",
+    "mongodb": "^6.6.1",
+    "next": "^14.2.3",
+    "next-auth": "^4.24.7",
+    "node": "^22.0.0",
+    "quill": "^2.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-quill": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.3",
+    "hint": "^7.1.11",
+    "prisma": "^5.13.0"
   }
 }
