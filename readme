@@ -4,29 +4,42 @@ Shade Room is a blog application designed to provide users with an immersive exp
 
 Tech Used
 Next.js: Next.js is used as the primary framework for building the application, providing server-side rendering, routing, and other powerful features.
+
 React: React is employed for building reusable UI components, making the application structure more modular and maintainable.
+
 NextAuth: NextAuth is utilized for authentication purposes, enabling users to sign in with various social media platforms seamlessly.
+
 CSS Modules: CSS Modules are used for styling components, allowing scoped styling and preventing class name conflicts.
+
 Image Optimization: Images are optimized using Next.js Image component, ensuring fast loading times and better performance.
+
 Context API: Context API is used for managing global state, providing a centralized way to handle theme and authentication data.
 Challenges
+
 Authentication: Integrating authentication with NextAuth posed challenges, requiring careful configuration and handling of user sessions.
-Text Content: Difficulty in changing Lorem Ipsum text due to issues in the implementation or rendering of text content.
-Navigation Guide
+
+Text Content: I didn't change the lorem text
+
 Homepage
 The homepage features a curated selection of featured articles and categorized posts.
 Users can scroll down to explore different sections or use the navbar for quick navigation.
+
 Blog Page
 The blog page showcases a collection of articles categorized under different topics.
 Users can scroll through the list of articles or use the navbar to navigate to other sections.
+
 Single Post Page
 Each post has its dedicated page, providing detailed information about the article.
 Users can read the post content, view comments, and interact with the community.
+
 Navigation can be done by scrolling or using the navbar for site-wide navigation.
+
 Login Page
 The login page allows users to sign in using their preferred social media accounts.
 Once authenticated, users are redirected to the homepage automatically.
+
 Navigation is straightforward, with clear sign-in options presented.
+
 Conclusion
 Shade Room offers a dynamic and engaging blogging experience, leveraging modern web technologies for performance and user satisfaction. With seamless navigation and curated content, users can immerse themselves in a world of intriguing articles and discussions.
 
